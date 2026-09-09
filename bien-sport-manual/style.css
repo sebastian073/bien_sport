@@ -1,0 +1,39 @@
+/* Bien Sport — Manual de Marca
+   CSS mínimo. La mayoría del estilo viene de Bootstrap por defecto. */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4{
+  font-weight: bold;
+}
+
+.section{
+  padding: 3rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.swatch{
+  height: 100px;
+  border: 1px solid #999;
+  margin-bottom: 0.5rem;
+}
+
+.swatch-label{
+  font-size: 0.85rem;
+}
+
+.logo-box{
+  border: 1px solid #999;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo-box img{
+  max-width: 220px;
+}
+
+table{
+  width: 100%;
+}
